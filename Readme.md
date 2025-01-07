@@ -90,8 +90,8 @@ operations for managing the entities.
 
 - Only authorized users (owners of the respective entities) are allowed to modify or delete columns, cards, or comments.
 - The RBAC system checks ownership using a combination of guards and services:
-    - **RolesGuard** -> **RbacService** -> **CoreRelationResolver** -> **<Entity>RelationResolver** (e.g., *
-      *ColumnRelationResolver** for user → column → card → comment).
+    - **RolesGuard** -> **RbacService** -> **CoreRelationResolver** -> **EntityRelationResolver**
+    - In my case: **ColumnRelationResolver** for user → column → card → comment.
 
 ### 4. Data Validation
 
