@@ -1,4 +1,4 @@
-p# NestJS Backend Test Task
+# NestJS Backend Test Task
 
 ## Overview
 
