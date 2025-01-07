@@ -17,22 +17,6 @@ operations for managing the entities.
 
 ## Entities
 
-### User
-
-- Represents the user in the system. Each user can have multiple columns.
-
-### Column
-
-- A column that belongs to a user and contains multiple cards.
-
-### Card
-
-- A card that belongs to a column and can have multiple comments.
-
-### Comment
-
-- Represents a comment made on a card by a user.
-
 ### Database Diagram
 ![Taskboard](https://github.com/user-attachments/assets/c4e634a2-e98a-46d7-988f-43223a84f4a0)
 
